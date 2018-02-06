@@ -6,6 +6,7 @@ class App extends Component {
     return (
       <div>
         <h1>This is our Sweethearts Clicker!!!</h1>
+        <button>Sweetheart Goes Here</button>
       </div>
     );
   }
