@@ -13,4 +13,8 @@ CREATE TABLE  users (
     iskiss BOOLEAN,
     isletsgetbusy BOOLEAN,
     isbemine BOOLEAN
+    -- powerups VARCHAR ARRAY
 );
+
+INSERT INTO users (username, score, passworddigest)
+VALUES ('test-user', '0', 'strongPassword')
