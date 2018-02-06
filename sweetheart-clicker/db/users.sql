@@ -7,6 +7,7 @@ CREATE TABLE  users (
     ID SERIAL PRIMARY KEY,
     username VARCHAR,
     score VARCHAR,
+    passworddigest VARCHAR,
     iscall BOOLEAN,
     ismiss BOOLEAN,
     iskiss BOOLEAN,
