@@ -1,5 +1,10 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+body{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif ;
+  margin: 0px;
+  background-color: #ff02c1;
+  height: 100%;
+ 
 }
+
