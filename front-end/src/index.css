@@ -1,10 +1,46 @@
 
 body{
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 40px;
+  font-family: 'VT323', monospace;
   margin: 0px;
-  background-color: #ff02c1;
-  height: 100%;
- 
+  background-color: white;
+  background-image: url("https://image.ibb.co/ncp9vc/sweethearts.png");
+  background-repeat: no-repeat;
+  height: 100%; 
+
+}
+
+
+#mainImage {
+
+  cursor: pointer;
+  display: inline;
+  bottom: 0;
+  right: 0;
+}
+
+.storeImage {
+  bottom: 0;
+  display: inline;
+  left: 0;
+
+
+}
+
+#top {
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+}
+#under {
+
+  bottom: 0;
+  right: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+.caption {
+  display: block;
+  padding: 25px 5px 15px 120px;
 }
 
